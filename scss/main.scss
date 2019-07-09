@@ -124,6 +124,10 @@ main {
       @include easeOut;
     }
   }
+  .fas,
+  .fab {
+    margin-right: 5px;
+  }
 }
 
 //Contact Page
