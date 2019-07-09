@@ -45,7 +45,8 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url(../img/portrait_small.jpg);
+      background: url(../img/portrait_small.JPG);
+      background-size: cover;
       width: 150px;
       height: 150px;
     }
@@ -66,10 +67,21 @@
 
 // Smartphones
 @include mediaSm {
+  h1.lg-heading {
+    font-size: 3rem;
+    margin-top: 10vh;
+  }
+  main {
+    padding: 1rem;
+  }
   main#home h1 {
     margin-top: 10vh;
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
   }
 }

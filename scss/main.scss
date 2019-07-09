@@ -84,7 +84,9 @@ main {
     border: $secondary-color 3px solid;
     width: 250px;
   }
-
+  ul {
+    text-align: left;
+  }
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
